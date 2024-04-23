@@ -1,0 +1,46 @@
+#gameTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.clickedRed {
+    background-color: red;
+    color: white;
+}
+
+.clickedBlue {
+    background-color: blue;
+    color: white;
+}
+
+#playerOne {
+    display: inline-block;
+    margin: 3px;
+}
+
+#playerTwo {
+    display: inline-block;
+    margin: 3px;
+}
+
+.activePlayer1 {
+    text-decoration: underline;
+    color: red;
+}
+
+.activePlayer2 {
+    text-decoration: underline;
+    color: blue;
+}
+
+#button {
+    display: block;
+    margin-top: 15px;
+}
